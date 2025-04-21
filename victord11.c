@@ -69,7 +69,7 @@ void transferI(int* q, int*p, int size) {
 }
 
 int main(int argv, char** argc) {
-	int datal=1000000;
+	int datal=1000000; //optional, 10000 should be sufficient.
 	unsigned long long* w= (unsigned long long*)malloc(datal*sizeof(unsigned long long));
 	unsigned long long* bw= (unsigned long long*)malloc(datal*sizeof(unsigned long long));
 	unsigned long long* p = (unsigned long long*) malloc(datal*sizeof(unsigned long long));
